@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "./fget_data.py", line 2, in <module>
+    import dhtreader
+ImportError: No module named dhtreader
+Traceback (most recent call last):
+  File "./screen.py", line 57, in <module>
+    lightIO=os.open(lightfilo, os.O_RDONLY | os.O_NONBLOCK)
+OSError: [Errno 2] No such file or directory: '/ramtmp/light.penv'
