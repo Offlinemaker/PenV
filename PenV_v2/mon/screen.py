@@ -69,7 +69,6 @@ n=0
 s=0
 screen.open()
 while True:
-	#screen.open()
 	if screen.read()=='c':
         	rone("Maintenance-MODE")
 		rtwo("Start [y/n]     ")
@@ -138,22 +137,6 @@ while True:
 		except:
 			ip="noFile"
 		rtwo(ip)
-	#strftime("%Y-%m-%d \n %H:%M:%S", gmtime()))
 	time.sleep(st)
 	s=s+1	
-        
-		
-		#screen.write(comm)
-		#time.sleep(st)
-		#screen.write(cursor)
-        	#time.sleep(st)
-		#screen.write("/x0F")
-                #time.sleep(st)
-                #screen.write(chead)
-                #time.sleep(st)
-                #screen.write(" ")	
-	
-	#screen.write(strftime("%Y-%m-%d", gmtime()))
-
-	#screen.close()
 	

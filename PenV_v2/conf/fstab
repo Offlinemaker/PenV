@@ -1,3 +1,5 @@
+#This is what the addition should look like in the End
+#If in any you want to do it by yourself or my install script messes up
 proc            /proc           proc    defaults          0       0
 
 # Handled by Berryboot 

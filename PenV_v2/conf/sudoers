@@ -34,3 +34,4 @@ root	ALL=(ALL:ALL) ALL
 pi ALL=(ALL) NOPASSWD: ALL
 
 MONUSER ALL=(ALL) NOPASSWD: GETDATA, GETDATAPY, DOPY
+#Actually you just have to have the permission for DOPY, the rest is obsolete (But still there because these are old files and therefore should be treated like that!)

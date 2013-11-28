@@ -1,11 +1,11 @@
 import time
 import dhtreader
 import os
-import RPi.GPIO as GPIO		#IO Libraries (kann als GPIO weiter angesprochen werden)
+import RPi.GPIO as GPIO
 import socket
-GPIO.setmode(GPIO.BOARD)	#Setzt den Modus der Pin ansprache auf Board (Numerierungsreinfolge)
+GPIO.setmode(GPIO.BOARD)	
 
-GPIO.setup(12, GPIO.IN)	#Setzten von Ports als INPUT
+GPIO.setup(12, GPIO.IN)	
 GPIO.setup(15, GPIO.IN)
 GPIO.setup(18, GPIO.IN, pull_up_down=GPIO.PUD_DOWN)
 
